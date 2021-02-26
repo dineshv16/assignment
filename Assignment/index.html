@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ 
+
+    <script>
+        $(window).scroll(function() {
+            $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+        });
+    </script>
+</head>
+
+<body>
+
+
+    <header id="home">
+        <nav class="navbar navbar-default navbar-expand-sm fixed-top navbar-light border-bottom p-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Group%2082.svg" alt="">
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                    <span class="navbar-toggler-icon">
+
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link scrollTo" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link scrollTo" href="#benefits">Benefits</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link scrollTo" href="#facilities">Facilities</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link scrollTo" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link scrollTo" href="#pricing">Pricing</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link scrollTo" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container title">
+            <div class="gallery-lg">
+                <h1>Best Co-working Space at Best Price</h1>
+                <p>Expect the best-in-class! An Alley with a record of successful startups is launching a top-notch co-working space<br />with exclusive amenities, only for tech startups. Recreate history at Bootstrap Alley.</p>
+                <button type="button" class="btn text-regular mt-3" style="width: 192px;margin-bottom:150px; height:48px;background: #F16739;border-radius:24px;color: #FFFFFF;">Get Started</button><br />
+                <a href=""><img src="img/Group%20145.svg" alt=""></a>
+            </div>
+            <div class="gallery-md" style="display: none;">
+                <h1>Brace Yourself</h1>
+                <p>An alley with a record of successful startups is launching a co-working space exclusively for tech startups. Recreate history at Bootstrap Alley, Baner, Pune.</p>
+                <button type="button" class="btn text-regular mt-3" style="width: 192px;margin-bottom:150px; height:48px;background: #F16739;border-radius:24px;color: #FFFFFF;">Get Started</button><br />
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!--
+
+    <div class="sticky-top bg-dark hidden-spacer"> </div>
+-->
+
+    <div class="container-fluid text-center">
+
+        <h1 id="benefits" class="underline-small text_bold pt-5">Benefits</h1>
+        <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit et, sodales...</p>
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="img/Group%20153.svg" alt="" style="width:60px;" />
+                <p class="m-0 font-weight-bold" style="color: #444444;">Like Minded Startups</p>
+                <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit<br /> et, sodales...</p>
+
+            </div>
+            <div class="col-md-4">
+                <img src="img/Group%20156.svg" alt="" style="width:60px;" />
+                <p class="m-0 font-weight-bold" style="color: #444444;">Large Terrace</p>
+                <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit<br /> et, sodales...</p>
+
+            </div>
+            <div class="col-md-4">
+
+                <img src="img/Group%20158.svg" alt="" style="width:60px;" />
+                <p class="m-0 font-weight-bold" style="color: #444444;">Ready to Move in</p>
+                <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit<br /> et, sodales...</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/Group%20154.svg" alt="" style="width:60px;" />
+                <p class="m-0 font-weight-bold" style="color: #444444;">Free Unlimited Wi-Fi</p>
+                <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit<br /> et, sodales...</p>
+
+            </div>
+            <div class="col-md-4">
+                <img src="img/Group%20155.svg" alt="" style="width:60px;" />
+                <p class="m-0 font-weight-bold" style="color: #444444;">Located on Main Road</p>
+                <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit<br /> et, sodales...</p>
+
+            </div>
+            <div class="col-md-4">
+
+                <img src="img/Group%20157.svg" alt="" style="width:60px;" />
+                <p class="m-0 font-weight-bold" style="color: #444444;">Hit the Target</p>
+                <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur<br /> adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit<br /> et, sodales...</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid text-center mt-5 pt-5 pb-5" style="background: #333333 0% 0% no-repeat padding-box;">
+
+        <h1 style="color: #fff;" id="facilities" class="underline-small text_bold">Facilities</h1>
+        <p style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit et, sodales...</p>
+
+        <div class="row m-5 facilities-lg">
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20107.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">24/7 Access</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20108.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Spacious Cubicles</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20143.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">24/7 Power Backup</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20110.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Printer Facilities</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20111.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">CCTV & Access Cards</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20113.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Fridge & Microwave</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20115.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">TV & Set Top Box</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20118.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Reception Area</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20120.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Large Cafeteria</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/line.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">TV Conference Rooms</div>
+                </div>
+            </div>
+            <div class="col-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Path%20203.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Various Meeting Rooms</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20123.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Postal Address</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Path%20215.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Large Open Terrace</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/3MWAX2.tif.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Housekeeping Facilities</div>
+                </div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <div class="d-flex flex-row">
+                    <div class="p-2"> <img src="img/Group%20129.svg" alt="" style="width:30px;" /></div>
+                    <div class="p-2 facility">Parking Spaces</div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="row m-5 facilities-md" style="display: none;">
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20107.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">24/7 Access</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20108.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">Spacious Cubicles</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20143.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">24/7 Power Backup</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20110.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">Printer Facilities</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20111.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">CCTV & Access Cards</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20113.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">Fridge & Microwave</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20115.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">TV & Set Top Box</div>
+            </div>
+            <div class="col-md-3 mt-3">
+
+                <img src="img/Group%20118.svg" alt="" style="width:30px;" />
+                <div class="p-2 facility">Reception Area</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20120.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">Large Cafeteria</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/line.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">TV Conference Rooms</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Path%20203.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">Various Meeting Rooms</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20123.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">Postal Address</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Path%20215.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">Large Open Terrace</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/3MWAX2.tif.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">Housekeeping Facilities</div>
+            </div>
+            <div class="col-md-3 mt-3">
+                <img src="img/Group%20129.svg" alt="" style="width:30px;" />
+
+                <div class="p-2 facility">Parking Spaces</div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container-fluid text-center pt-5">
+        <h1 id="gallery" class="underline-small text_bold">Gallery</h1>
+        <p style="color: #666666;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta fringilla<br /> ullamcorper. Morbi felis orci, lacinia a velit et, sodales...</p>
+
+        <div class="row no-gutters">
+            <div class="col-md-4"><img class="img-fluid" src="img/Group%20147@2x.png" alt=""></div>
+            <div class="col-md-4"><img class="img-fluid" src="img/Group%2097@2x.png" alt=""></div>
+            <div class="col-md-4"><img class="img-fluid" src="img/Group%2099@2x.png" alt=""></div>
+            <div class="w-100"></div>
+            <div class="col-md-4"><img class="img-fluid" src="img/Group%20101@2x.png" alt=""></div>
+            <div class="col-md-4"><img class="img-fluid" src="img/Group%20103@2x.png" alt=""></div>
+            <div class="col-md-4"><img class="img-fluid" src="img/Group%20105@2x.png" alt=""></div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid text-center mt-4 pt-5 pb-5" style="background: #FDBA12 0% 0% no-repeat padding-box;">
+
+        <h1 id="pricing" class="underline-small text_bold">Pricing</h1>
+        <p style="color:#fff;" class="text-regular">Check out our attractive pricing plan Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. Nunc porta fringilla ullamcorper.</p>
+
+        <div class="test mt-5 mb-3 rounded-circle" style="position:relative;">
+
+            <div style="position: absolute;top:20%;left:13%;">
+                <h1 class="display-3 m-0" style="font-family:Lato-Bold;"><span><img src="img/rupee.svg" style="width:10px;vertical-align: top;margin-top: 20px;" alt=""></span>6000</h1>
+                <p style="font-size:16px;" class="m-0">per month for single desk</p>
+                <p style="font-size:12px;color: #808080;" class="m-0">plus taxes as applicable</p>
+            </div>
+
+        </div>
+        <button type="button" class="btn text-regular mt-3" style="width: 192px; height:48px;background: #F16739;border-radius:24px;color: #FFFFFF;">Book Now</button>
+
+    </div>
+
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="underline-small_new text_bold">Say Hello</h1>
+                <div class="mt-5">
+                    <p style="margin:0px;color: #4D4D4D;">BOOTSTRAPALLEY</p>
+                    <p class="font-weight-light" style="color: #4D4D4D;">B-7/8, Anmol Pride, Baner<br />Pune 411045</p>
+                    <p style="color:#4D4D4D;">+91 20 4075 1111<br />
+                        +91 20 4075 1177</p>
+                    <p style="color:#F16739;">bootstrap-alley@talentica.com</p>
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <h1 class="underline-small_new text_bold">Write to us</h1>
+
+                <form action="#" class="mt-5 needs-validation" novalidate>
+                    <div class="form-group">
+
+                        <input type="name" class="form-control form-input" placeholder="Name*" required>
+                    </div>
+                    <div class="form-group mt-4">
+
+                        <input type="email" class="form-control form-input" placeholder="Email Id*" required>
+                    </div>
+                    <div class="form-group mt-4">
+
+                        <input type="contact" class="form-control form-input" placeholder="Contact No." required>
+                    </div>
+
+                    <div class="form-group mt-4">
+
+                        <input type="message" class="form-control form-input" placeholder="Message" required>
+                    </div>
+
+
+                    <button type="submit" class="btn text-regular mt-3" style="width: 192px; height:48px;background: #F16739;border-radius:24px;color: #FFFFFF;">Send</button>
+                </form>
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid p-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.275612734722!2d73.78277251479136!3d18.561609087385044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf3cdee0bee3%3A0x914d3698c401d898!2sBaner%20Rd%2C%20Baner%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1614159042551!5m2!1sen!2sin" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+    <div id="contact-us" class="container-fluid p-4" style="background: #333333 0% 0% no-repeat padding-box;">
+        <div class="row">
+            <div class="col-md-4 col-12 mt-2" style="color: #CCCCCC;">
+                follow us on<br />
+                <div class="mt-2">
+                    <img src="img/Group%20134.svg" class=" pr-2" alt="">
+                    <img src="img/Group%20136.svg" class="pr-2" alt="">
+                    <img src="img/Group%20138.svg" class="pr-2" alt="">
+                </div>
+
+            </div>
+            <div class="col-md-6 col-12 mt-2" style="color: #CCCCCC;">
+                <a href="#" style="color: #CCCCCC;">Terms & Conditions</a> <br />
+                <a href="#" style="color: #CCCCCC;"> Privacy Policy</a>
+            </div>
+            <div class="col-md-2 col-12 mt-2" style="color: #CCCCCC;">
+                powered by<br />
+                <img class="img-fluid" src="img/Group%20141.svg" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="footer col-12" style="color:#808080;background: #000000 0% 0% no-repeat padding-box;font-size:12px;">© bootstrapalley 2016</div>
+</body>
+
+
+<script>
+    // Disable form submissions if there are invalid fields
+    (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+                form.addEventListener('submit', function(event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+</script>
+
+<script>
+    $(".scrollTo").on('click', function(e) {
+        e.preventDefault();
+        var target = $(this).attr('href');
+        $('html, body').animate({
+            scrollTop: ($(target).offset().top)
+        }, 2000);
+    });
+
+    var wrap = $("#wrap");
+    wrap.on("scroll", function(e) {
+        if (this.scrollTop > 100) {
+
+            wrap.addClass("class_name_of_div");
+        } else {
+            wrap.removeClass("class_name_of_div");
+        }
+    });
+</script>
+
+</html>
